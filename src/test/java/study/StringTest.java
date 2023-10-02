@@ -37,6 +37,11 @@ public class StringTest {
         }).isInstanceOf(StringIndexOutOfBoundsException.class)
                 .hasMessage("String index out of range: 10");
 //        char actual = "a,b,c".charAt(10);
-
     }
+
+
+
+
+
+
 }
