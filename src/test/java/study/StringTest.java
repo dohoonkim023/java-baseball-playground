@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 public class StringTest {
+
     @Test
     void replace() {
         String actual = "abc".replace("b", "d");
@@ -38,8 +39,6 @@ public class StringTest {
                 .hasMessage("String index out of range: 10");
 //        char actual = "a,b,c".charAt(10);
     }
-
-
 
 
 
